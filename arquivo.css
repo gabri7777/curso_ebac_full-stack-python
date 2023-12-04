@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body > header{
+    background-color: coral;
+    padding: 16px 0;
+    color: aliceblue;
+}
+
+header .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: aliceblue;
+}
+
+.container{
+    width: 1024px;
+    margin: 0% auto;
+}
+
+.artigos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.artigos article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.artigos article {
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section h2, .artigos article{
+    margin: 16px;
+}
+.artigos article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.artigos article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.artigos article a:hover {
+    text-decoration: underline;
+}
+
+.artigos article p, .artigos article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.artigos article h3 {
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#esportes .artigos article a{
+    background-color: rgba(0, 255, 0, 0.8);
+    color: black;
+}
+
+#Economia {
+    background-color: #e6e392;
+}
+
+#Economia .artigos article a {
+background-color: orange;
+}
+
+#Tecnologia {
+    background-color: rgb(104, 104, 245);
+}
+
+#Astronomia {
+    background-color: rgb(126, 27, 126);
+}
+
+#Astronomia .artigos article a {
+    background-color: rgb(228, 40, 171);
+}
